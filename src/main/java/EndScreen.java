@@ -4,9 +4,9 @@ public class EndScreen {
 
     static boolean startAgain() {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Do you want to start yet?");
-        System.out.println("Y for yes");
-        System.out.println("N for no");
+        System.out.println("Do you want to convert more?");
+        System.out.println("Y is yes");
+        System.out.println("N is no");
         String choice = scan.next();
         if (choice.equalsIgnoreCase("y")) {
             return true;
@@ -14,7 +14,7 @@ public class EndScreen {
             return false;
         }else
         {
-            System.out.println("Wrong input try again");
+            System.out.println("Invalid Choice, please try again");
             return startAgain();
         }
 

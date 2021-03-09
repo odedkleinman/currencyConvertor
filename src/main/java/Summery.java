@@ -1,7 +1,7 @@
 public class Summery {
     private double value;
     private String currencyConversion;
-
+// Switching the coin input of the user
     public Summery(double value, String currencyConversion){
         this.value = value;
         switch (currencyConversion) {

@@ -1,7 +1,7 @@
 import java.io.Serializable;
 public class ILS extends Coin implements Serializable {
-
-    private final double value = 0.31;
+// Methods for getting the value of ILS->USD and calculate ILS->USD conversion
+    private final double value = 0.28;
     @Override
     public double getValue(){
         return value;

@@ -13,7 +13,7 @@ public class WriteResultsFile {
                 writer.write((i.getValue() + " , " + i.getConvertType())+"\n");
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-                System.out.println("An error occurred.");
+                System.out.println("Something went wrong with writing into the results file");
             }
         }
         writer.close();

@@ -8,7 +8,7 @@ public class ChoiseScreen {
             System.out.println("Please enter an amount to convert");
             return scan.nextDouble();
         }catch (InputMismatchException in){
-            System.out.println("Please enter amount with numbers in following format x.xx");
+            System.out.println("Invalid Choice, please try again");
             return ChoiseScreen.choiseScreen();
         }
     }

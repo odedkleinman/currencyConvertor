@@ -2,3 +2,4 @@
 10.0 , USD -> ILS
 12.0 , USD -> ILS
 14.0 , ILS -> EURO
+50.0 , ILS -> USD
